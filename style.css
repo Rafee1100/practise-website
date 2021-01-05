@@ -11,7 +11,7 @@ h2{
 p{
     color: dimgray;
 }
-spant{
+span{
     color: orange;
 }
 .half-width{
@@ -24,12 +24,13 @@ spant{
     width: 100%;
 }
 .top-part{
-    background-image: url("images/top-banner.png");
+    background-image: url("./images/top-banner.png");
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
+    display: block;
 }
 .link-button{
     text-decoration: none;
@@ -40,14 +41,14 @@ section{
     font-weight: 700;
 }
 .dream-part{
-    background-image: url("images/dream-bg.png");
+    background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
 .single-hobby{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 50%;
     background-color: white;
 }
 .hobbies{
